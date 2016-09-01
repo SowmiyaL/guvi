@@ -19,17 +19,7 @@ public static void main(String[] args)
         	  
           }
           Arrays.sort(a);
-          for(int i=0;i<n;i++)
-          {
-        	  for(int j=i;j<n;j++)
-        	  {
-        		  if(a[i]==a[j+1]) 
-        		  {
-        			 a[j] = '$';
-        		  }
-        		  
-        	  }
-          }
+          
          
           for(int k=n-1;k>=0;k--)
           {
